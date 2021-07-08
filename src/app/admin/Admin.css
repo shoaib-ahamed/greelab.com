@@ -1,0 +1,40 @@
+.ReactModalPortal button {
+    padding: 3px 15px 5px;
+}
+
+.Client-Details ul{
+    text-align: left;
+    list-style-type: none;
+    padding: 5px 30px;
+}
+
+.Client-Details ul li {
+    font-size: 20px;
+    font-weight: 700;
+    color: #b2b2b2;
+}
+
+.Client-Details ul li span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.admin-login{
+    padding-top: 60px;
+}
+.admin-login form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .ReactModal__Content {
+        width: 81% !important;
+        max-width: 400px !important;
+    }
+    .Client-Details ul{
+        padding: 5px;
+    }
+}

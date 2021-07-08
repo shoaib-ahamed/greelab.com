@@ -1,0 +1,432 @@
+/* Global & Desktop Large Screen Start (font-size 2x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.web-content-one{
+    display: grid;
+    place-items: center;
+    background: #0070C9;
+    min-height: 650px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.web-content-one .web-component-one{
+    width: 75%;
+    margin: 0 auto;
+}
+.web-content-one h1{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.05em;
+    margin-bottom: 32px;
+}
+.web-content-one h1 span{
+    color: #EAD94C;
+}
+.web-content-one h5{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 78px;
+}
+
+
+.web-content-two{
+    margin-top: -150px;
+}
+.web-content-two .web-component-two{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.line-break{
+    margin-top: 40px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.solution-card{
+    background: #FFFFFF;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    min-height: 720px;
+    position: relative;
+    margin-bottom: 52px;
+    width: 95%;
+}
+.solution-card .textarea{
+    padding: 50px 40px 100px;
+}
+.solution-card .bottom-design{
+    background: url("../../assets/web-solutions/card-bg.svg") no-repeat;
+    background-size: cover;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.solution-card h3{
+    font-family: 'Roboto', Black, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #011627;
+}
+.solution-card h6{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0070C9;
+}
+.solution-card p{
+    font-family: 'Roboto', Medium, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    color: #011627;
+}
+.solution-card p img{
+    margin-top: -3px;
+}
+.solution-card h4{
+    font-family: 'Roboto', Black, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    padding: 44px 42px 0;
+}
+.solution-card h5{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #EAD94C;
+    padding: 64px 33px 0 0;
+}
+.solution-card a:hover{
+    color: #EAD94C;
+}
+.solution-card .bottom-design img{
+    padding-left: 16px;
+    margin-top: -5px;
+}
+
+
+.web-content-three{
+    background: #0070C9;
+    display: grid;
+    place-items: center;
+    min-height: 866px;
+    margin-top: 66px;
+}
+.web-content-three .web-component-three{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.web-content-three h4{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: -0.07em;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 24px;
+}
+.web-content-three h2{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: -0.07em;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.web-content-three h6{
+    font-family: 'Roboto', Regular, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 16px;
+}
+.web-content-three p{
+    padding-bottom: 24px;
+}
+.web-content-three button{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    padding: 8px 18px;
+    background: #FFFFFF;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.05em;
+    color: #0070C9;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.web-content-three button:hover {
+    color: #0070C9;
+}
+.web-content-three i{
+    font-family: 'Roboto', Bold, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EAD94C;
+}
+
+/* Desktop Large Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    .web-content-one .web-component-one{
+        width: 100%;
+    }
+
+    .web-content-two .web-component-two{
+        width: 100%;
+    }
+
+    .web-content-three .web-component-three{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .web-content-one .web-component-one{
+        width: 90%;
+    }
+
+    .web-content-two .web-component-two{
+        width: 90%;
+    }
+
+    .web-content-three .web-component-three{
+        width: 90%;
+    }
+    .web-content-one{
+        min-height: 550px;
+    }
+}
+
+
+
+/* Desktop Medium Screen Start (font-size 1.8x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {  }
+
+/* Desktop Medium Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/*Tablet & Desktop Small Screen Start (font-size 1.6x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {  }
+
+/*Tablet & Desktop Small Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/*Tablet Screen Start (font-size 1.4x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .web-content-one h1{
+        font-size: 58px;
+        line-height: 68px;
+    }
+    .web-content-one h5{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+
+}
+
+/*Tablet Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* Mobile Screen Start (font-size 1.2x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 767px) {
+
+    .web-content-one h1{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 22px;
+    }
+    .web-content-one h5{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 56px;
+    }
+    .web-content-one img{
+        width: 34px;
+    }
+
+
+
+    .solution-card{
+        width: 100%;
+        min-height: auto;
+    }
+    .solution-card .textarea {
+        padding: 50px 40px 165px;
+    }
+    .solution-card h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .solution-card h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-card p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-card h4 {
+        font-size: 24px;
+    }
+    .solution-card h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-card .bottom-design img {
+        width: 42px;
+    }
+
+
+
+
+    .web-content-three h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .web-content-three h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .web-content-three h6 {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+    .web-content-three button {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 6px 15px 10px;
+    }
+    .web-content-three i {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+}
+
+
+/* Mobile Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* Mobile Small Screen Start (font-size 1x) >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 424px) {
+
+    .web-content-one h1{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 22px;
+    }
+    .web-content-one h5{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 56px;
+    }
+    .web-content-one img{
+        width: 34px;
+    }
+
+
+
+    .solution-card{
+        width: 100%;
+        min-height: auto;
+    }
+    .solution-card .textarea {
+        padding: 50px 40px 165px;
+    }
+    .solution-card h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .solution-card h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .solution-card p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: -20px;
+    }
+    .solution-card h4 {
+        font-size: 24px;
+        padding: 44px 16px 0;
+    }
+    .solution-card h5 {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 64px 16px 0 0;
+    }
+    .solution-card .bottom-design img {
+        width: 42px;
+    }
+
+
+
+
+    .web-content-three {
+        min-height: 768px;
+    }
+    .web-content-three h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .web-content-three h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .web-content-three h6 {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+    .web-content-three button {
+        font-size: 22px;
+        line-height: 26px;
+        padding: 6px 15px 10px;
+    }
+    .web-content-three i {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+}
+
+
+/* Mobile Small Screen End >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+

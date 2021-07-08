@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.App .no-routes{
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 767px){
+  .App .no-routes{
+    font-size: 20px;
+  }
+  .App .no-routes h2{
+    font-size: 24px;
+  }
+
+}
